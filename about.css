@@ -1,0 +1,104 @@
+body {
+  font-family: 'poppins', sans-serif;
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #0a192f;
+  color: #64FFDA;
+  text-align: center;
+  padding: 5px;
+}
+.top-nav {
+  overflow: hidden;
+  background-color: #112240;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.top-nav a {
+  float: left;
+  color: #64FFDA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: background 0.3s ease-in-out;
+}
+.top-nav a:hover {
+  background-color: #64FFDA;
+  color: #0a192f;
+}
+@media (min-width: 768px) {
+  .image-container {
+    position: relative;
+    width: 100%;
+  }
+  .image-container img {
+    display: block;
+  }
+  .about-text {
+    color: #0a192f;
+    position: absolute;
+    top: 45%;
+    left: 43%;
+    transform: translateY(-50%);
+    padding: 15px;;
+    text-align: left;
+    font-size: 1.15rem;
+  }
+  .contact-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #64FFDA;
+    color: #0a192f;
+    border: 1px solid #0a192f;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+  }
+  .contact-btn:hover {
+    background-color: #52e0c4;
+    transform: scale(1.05);
+  }
+}
+@media (max-width: 768px) {
+  .about-text {
+    font-size: 1.1rem;
+    text-align: center;
+    color:#0a192f;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contact-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #64FFDA;
+    color: #0a192f;
+    border: 1px solid #0a192f;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+  }
+  .contact-btn:hover {
+    background-color: #52e0c4;
+    transform: scale(1.05);
+  }
+}
+footer {
+  width: 100vw;
+  background-color: #0a192f;
+  height: 90px;
+  position: relative;
+}
+.footer-image {
+  position: absolute;
+  bottom: 0;
+}
+.footer-text {
+  position: absolute;
+  left: 5px;
+  color:#64FFDA;
+}

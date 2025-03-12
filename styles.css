@@ -1,0 +1,222 @@
+
+body {
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #0a192f;
+  color: #64FFDA;
+  text-align: center;
+  padding: 5px;
+}
+.introduction {
+  text-align: center;
+  color: #0a192f;
+}
+.top-nav {
+  overflow: hidden;
+  background-color: #112240;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.top-nav a {
+  float: left;
+  color: #64FFDA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: background 0.3s ease-in-out;
+}
+.top-nav a:hover {
+  background-color: #64FFDA;
+  color: #0a192f;
+}
+.hero-image {
+  width: 100vw;
+  position: relative;
+  object-fit: cover;
+  object-position: top;
+  filter: brightness(70%);
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  .hero-image {
+    height: 700px;
+  }
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #e6f1ff;
+  width: 90%;
+}
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 1.7rem;
+    top: 40%;
+  }
+}
+.hero-btn {
+  margin-top: 10px;
+  padding: 15px 20px;
+  font-size: 19px;
+  font-weight: bold;
+  background-color: #64FFDA;
+  color: #0a192f;
+  border: none;
+  cursor: pointer;
+  border-radius: 1px;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+.hero-btn:hover {
+  background-color: #52e0c4;
+  transform: scale(1.05);
+}
+.skill {
+  font-family: Arial, sans-serif;
+  padding: 0 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+.progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 30px;
+}
+.progress {
+  width: 0;
+  height: 100%;
+  background-color: #4caf50;
+  text-align: center;
+  padding: 7px;
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+  transition: width 10s ease-in-out;
+}
+.progress1 {
+  background-color: orange;
+}
+.progress2 {
+  background-color: rgb(199, 199, 39);
+}
+.skills-highlight {
+  text-align: center;
+  color: #0a192f;
+}
+.skills-container {
+  background-color: #e0e0e0;
+  padding-top: 10px;
+  padding-bottom: 18px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1250px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+.personal-project {
+  text-align: center;
+  color: #0a192f;
+}
+.grid-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.grid-item {
+  text-align: center;
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: 0.875 rem;
+  color: #555;
+}
+.see-more {
+  margin-top: 10px;
+  padding: 12px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #64FFDA;
+  color: #0a192f;
+  border: 1px solid #0a192f;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+.see-more:hover {
+  background-color: #52e0c4;
+  transform: scale(1.05);
+}
+.contact-section {
+  width: 80%;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin: 10px auto;
+}
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  margin-top: 10px;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #64FFDA;
+  color: #0a192f;
+  border: 1px solid #0a192f;
+  cursor: pointer;
+  border-radius: 1px;
+  margin: auto;
+  display: block;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+input[type=submit]:hover {
+  background-color: #52e0c4;
+  transform: scale(1.05);
+}
+footer {
+  width: 100vw;
+  background-color: #0a192f;
+  height: 90px;
+  position: relative;
+}
+.footer-image {
+  position: absolute;
+  bottom: 0;
+}
+.footer-text {
+  position: absolute;
+  left: 5px;
+  color:#64FFDA;
+}
+
+

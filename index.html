@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio website</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>Welcome to my portfolio website</header>
+    <div class="top-nav">
+      <a href="index.html">Home</a>
+      <a href="#contact">Contact</a>
+      <a href="about.html">About me</a>
+    </div>
+    <div class="hero-section">
+      <img  class="hero-image" src="side-view-worker.jpg" height="500px">
+      <div class="hero-text">
+        <h1>I am Ifeoluwa</h1>
+        <p>And I am a website developer</p>
+        <p>i specialize in creating visually appealing and responsive websites for clients</p>
+        <a href="about.html"><button class="hero-btn">About me</button></a>
+      </div>
+    </div>
+    <h2 class="introduction">Turning Ideas Into Reality With Web Development & Digital Strategies</h2>
+    <div class="skills-container">
+      <div  class="skills-highlight"><h1>Skills Highlights</h1></div>
+      <div class="skill">
+        <p>HTML</p>
+        <div class="progress-bar">
+          <div class="progress" data-percentage="90"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>CSS</p>
+        <div class="progress-bar">
+          <div class="progress progress1" data-percentage="70"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>Javascript</p>
+        <div class="progress-bar">
+          <div class="progress progress2" data-percentage="50"></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="personal-project">My Personal Projects</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+            <img src="my pf img1.JPG" alt="Image 1">
+            <div class="caption">real-time digital clock</div>
+        </div>
+        <div class="grid-item">
+            <img src="my pf img2.JPG" alt="Image 2">
+            <div class="caption">Rock-Paper-Scissors game</div>
+        </div>
+        <div class="grid-item">
+            <img src="my pf img.JPG" alt="Image 3">
+            <div class="caption">Image slider</div>
+        </div>
+        <div class="grid-item">
+            <img src="my pf img4.JPG" alt="Image 4">
+            <div class="caption">Calculator</div>
+        </div>
+      </div>
+    </div>
+  <button class="see-more">See More</button>
+  <div class="contact-section" id="#contact">
+    <h2>Contact me for collaboration and more inquiries</h2>
+    <form action="" method="GET">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="full name" placeholder="Full name..." required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email address" placeholder="email address..." required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message"  rows="5" required></textarea>
+      <input type="submit" value="submit">
+    </form>
+  </div>
+  <footer>
+    <div class="footer-image">
+    <img src="download.jfif" alt="tiktok" height="40px" width="50px">
+    <img src="download (1).jpg" alt="instagram" height="40px" width="50px">
+    <img src="download.jpg" alt="twitter" height="40px" width="50px">
+    </div>
+    <p class="footer-text">&copy; <span id="year">IFeoluwa. All rights reserved.</span></p>
+  </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
