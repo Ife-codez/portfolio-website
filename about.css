@@ -3,7 +3,6 @@ body {
   background-color: #F5F5F5;
   margin: 0;
   padding: 0;
-  width: 100%;
 }
 header {
   background-color: #0a192f;
@@ -65,8 +64,8 @@ header {
   }
 }
 @media (max-width: 768px) {
-  .image-container {
-    width: 100%;
+  .image-container img {
+    width: 100vw;
   }
   .about-text {
     width: 100%
