@@ -65,6 +65,9 @@ header {
   }
 }
 @media (max-width: 768px) {
+  .image-container {
+    width: 100%;
+  }
   .about-text {
     width: 100%
     font-size: 1.1rem;
