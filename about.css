@@ -64,8 +64,14 @@ header {
   }
 }
 @media (max-width: 768px) {
+  .image-container {
+    overflow: hidden;
+    max-width: 100%;
+  }
   .image-container img {
-    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    display: block;
   }
   .about-text {
     width: 100%
